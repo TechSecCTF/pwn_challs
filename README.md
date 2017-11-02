@@ -1,4 +1,4 @@
-# chals
+# pwn_challs
 
 Collection of pwn challenges for pedagogical purposes.
 
