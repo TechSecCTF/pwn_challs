@@ -1,6 +1,6 @@
 # pwn_challs
 
-Collection of pwn challenges for pedagogical purposes.
+a panoply of pwn problems for pedagogical purposes
 
 Suggested order of completion:
 
