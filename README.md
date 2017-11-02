@@ -31,4 +31,11 @@ Suggested order of completion:
   * `heap` (Heap vulnerabilities)
     * `unlink` [pwnable.kr]
     * `0ctfbabyheap` [how2heap/0ctf]
+    * `0ctfbabyheap_aslr` [how2heap/0ctf]
+    * `tw2017parrot` [Tokyo Westerns]
+    * Suggested reading:
+      * https://heap-exploitation.dhavalkapil.com/
+    * Tooling:
+      * [voltron](https://github.com/snare/voltron)
+      * [angelheap](https://github.com/scwuaptx/Pwngdb/tree/master/angelheap)
 
