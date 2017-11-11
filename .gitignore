@@ -1,0 +1,14 @@
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+.gdb_history
+.ipynb_checkpoints/
+core
+a.out
+.pwntools-cache/
+.irssi/
+*.dmp
+*.idb
+*.DS_Store
