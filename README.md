@@ -30,8 +30,8 @@ Suggested order of completion:
       * http://tk-blog.blogspot.com/2009/02/relro-not-so-well-known-memory.html
   * `heap` (Heap vulnerabilities)
     * `unlink` [pwnable.kr]
-    * `0ctfbabyheap` [how2heap/0ctf]
-    * `0ctfbabyheap_aslr` [how2heap/0ctf]
+    * `0ctfbabyheap2017` [how2heap/0ctf]
+    * `0ctfbabyheap2017_aslr` [how2heap/0ctf]
     * `tw2017parrot` [Tokyo Westerns]
     * Suggested reading:
       * https://heap-exploitation.dhavalkapil.com/
