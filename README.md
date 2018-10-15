@@ -1,4 +1,4 @@
-# pwn_challs
+# TechSec's Pwn Challenges
 
 a panoply of pwn problems for pedagogical purposes
 
@@ -8,7 +8,7 @@ Suggested order of completion:
     * `bof` [pwnable.kr]
     * `asm` [pwnable.kr]
     * Suggested reading:
-      * https://github.com/TechSecCTF/meeting_notes/tree/master/04-03-17_stack_smashing
+      * https://github.com/TechSecCTF/meeting_notes/tree/master/Fall2017/11-06-17_stack_smashing
       * http://insecure.org/stf/smashstack.html
     * Tooling:
       * [gdb](https://www.gnu.org/software/gdb/)
@@ -24,7 +24,7 @@ Suggested order of completion:
     * Tooling:
       * [pwndbg](https://github.com/pwndbg/pwndbg)
       * [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
-  * `got` (Global-offset table overwrites)
+  * `got` (Global Offset Table overwrites)
     * `passcode` [pwnable.kr]
     * Suggested reading:
       * http://tk-blog.blogspot.com/2009/02/relro-not-so-well-known-memory.html
@@ -36,6 +36,7 @@ Suggested order of completion:
     * `tw2017parrot` [Tokyo Westerns]
     * Suggested reading:
       * https://heap-exploitation.dhavalkapil.com/
+      * https://github.com/TechSecCTF/CTF-pwn-tips/wiki/Heap
     * Tooling:
       * [voltron](https://github.com/snare/voltron)
       * [angelheap](https://github.com/scwuaptx/Pwngdb/tree/master/angelheap)

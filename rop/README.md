@@ -1,4 +1,4 @@
 # chals
 rop --> leakRop --> makeLeak
 
-These challenges were taken from an RPISec workshop.
+These challenges were taken from an RPISEC workshop.
