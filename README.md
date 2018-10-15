@@ -33,6 +33,7 @@ Suggested order of completion:
     * `unlink` [pwnable.kr]
     * `0ctfbabyheap2017` [how2heap/0ctf]
     * `0ctfbabyheap2017_aslr` [how2heap/0ctf]
+    * `0ctfbabyheap2018` [0ctf, optional]
     * `tw2017parrot` [Tokyo Westerns]
     * Suggested reading:
       * https://heap-exploitation.dhavalkapil.com/
