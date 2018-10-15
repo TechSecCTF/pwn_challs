@@ -14,9 +14,9 @@ Suggested order of completion:
       * [gdb](https://www.gnu.org/software/gdb/)
       * [pwntools](https://github.com/Gallopsled/pwntools)
   * `rop` (Return-oriented programming, memory leaks)
-    * `rop` [rpisec]
-    * `leakRop` [rpisec]
-    * `makeLeak` [rpisec]
+    * `rop` [RPISEC]
+    * `leakRop` [RPISEC]
+    * `makeLeak` [RPISEC]
     * Suggested reading:
       * http://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html
       * https://github.com/TechSecCTF/CTF-pwn-tips/wiki/Shared-Libraries
@@ -28,6 +28,7 @@ Suggested order of completion:
     * `passcode` [pwnable.kr]
     * Suggested reading:
       * http://tk-blog.blogspot.com/2009/02/relro-not-so-well-known-memory.html
+      * https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html
   * `heap` (Heap vulnerabilities)
     * `unlink` [pwnable.kr]
     * `0ctfbabyheap2017` [how2heap/0ctf]
@@ -38,4 +39,3 @@ Suggested order of completion:
     * Tooling:
       * [voltron](https://github.com/snare/voltron)
       * [angelheap](https://github.com/scwuaptx/Pwngdb/tree/master/angelheap)
-
